@@ -14,4 +14,5 @@ Emoji list: http://emojisymbols.com/emojilist.php
 .emoji {
   font-family: 'EmojiSymbols';
   line-height: 1;
+  font-size: 200%;
 }
