@@ -1,0 +1,17 @@
+/*
+EmojiSymbols Font (c)blockworks - Kenichi Kaneko
+http://emojisymbols.com/
+
+Emoji list: http://emojisymbols.com/emojilist.php
+*/
+@font-face {
+  font-family: 'EmojiSymbols';
+  src: url('emoji.woff') format('woff');
+  text-decoration: none;
+  font-style: normal;
+}
+
+.emoji {
+  font-family: 'EmojiSymbols';
+  line-height: 1;
+}
