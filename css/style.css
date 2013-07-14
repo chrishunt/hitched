@@ -1,13 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   text-align: center;
   font-family: "museo-sans", sans-serif;
   font-style: normal;
   font-weight: 300;
+  padding-top: 40px;
 }
 
 h1, h2 {
@@ -17,17 +13,18 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 6em;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 p {
-  margin-top: 10px;
+}
+
+#header {
 }
 
 #youtube {
-  margin-top: 50px;
 }
