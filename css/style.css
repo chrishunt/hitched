@@ -3,7 +3,7 @@ body {
   font-family: "museo-sans", sans-serif;
   font-style: normal;
   font-weight: 300;
-  padding-top: 40px;
+  padding: 40px 0;
 }
 
 h1, h2 {
@@ -16,15 +16,21 @@ h1 {
   font-size: 6em;
 }
 
-h2 {
-  font-size: 2em;
+#donate-button {
+  margin-top: 30px;
 }
 
-p {
+#emoji-bomb {
+  font-size: 8em;
 }
 
-#header {
-}
+@media (max-width: 550px) {
+  h1 {
+    font-size: 3em;
+  }
 
-#youtube {
+  h1 small {
+    font-size: 50%;
+    padding-top: 10px;
+  }
 }
