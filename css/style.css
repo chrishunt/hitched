@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: "museo-sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  padding: 60px 0;
+}
+
+h1, h2 {
+  font-family: "ff-enzo-web", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 6em;
+}
+
+#donate-button {
+  margin-top: 30px;
+}
+
+#emoji-bomb {
+  font-size: 8em;
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 3.1em;
+  }
+
+  h1 small {
+    font-size: 50%;
+    padding-top: 10px;
+  }
+}
